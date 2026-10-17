@@ -1,0 +1,14 @@
+node_modules/
+dist/
+coverage/
+*.log
+.DS_Store
+
+# Never commit personal financial databases or backups
+data/*.sqlite
+data/*.sqlite-*
+data/*.db
+data/backups/*.sqlite
+data/backups/*.sqlite-*
+data/backups/*.db
+data/backups/*.json
